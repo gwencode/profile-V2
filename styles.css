@@ -30,13 +30,6 @@ body {
     margin-left:16px;
     border-radius: 50%;
   }
-
-  .column {
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 30%;
-  }
 }
 
 @media (max-width: 720px) {
@@ -57,13 +50,6 @@ body {
     margin-left:16px;
     border-radius: 50%;
   }
-
-  .column {
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 30%;
-  }
 }
 
 @media (max-width: 540px) {
@@ -83,13 +69,6 @@ body {
     height: 100px;
     margin-left:16px;
     border-radius: 50%;
-  }
-
-  .column {
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 30%;
   }
 
   .button-black {
@@ -193,6 +172,13 @@ h3 {
   content: "";
   display: table;
   clear: both;
+}
+
+.column {
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 30%;
 }
 
 @keyframes rotateImage {
